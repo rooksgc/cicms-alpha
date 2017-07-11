@@ -1,0 +1,7 @@
+/* Стили для страниц сайта */
+
+@import url(reset.css);
+
+#APIHelper { 
+  display: none; 
+}

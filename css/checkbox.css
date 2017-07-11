@@ -1,0 +1,45 @@
+/* Файл стилей для кастомных чекбоксов */
+
+.cbox {
+    background: url("../img/admin/checkboxbg.png") no-repeat right bottom;
+    display: inline-block;
+    min-width: 60px;
+    height: 22px;
+    white-space: nowrap;
+    position: relative;
+    cursor: pointer;
+    margin-left: 14px;
+}
+
+.cbox.checked {
+    background-position: top left;
+    margin: 0 14px 0 0;
+}
+
+.cbox .cbContent {
+    color: white;
+    line-height: 20px;
+    padding-right: 24px;
+    text-align: right;
+}
+
+.cbox.checked .cbContent {
+    text-align: left;
+    padding: 0 0 0 24px;
+}
+
+.cbPart {
+    background: url("../img/admin/checkboxbg.png") no-repeat left bottom;
+    width: 14px;
+    position: absolute;
+    top: 0;
+    left: -14px;
+    height: 22px;
+    overflow: hidden;
+}
+
+.cbox.checked .cbPart {
+    background-position: top right;
+    left: auto;
+    right: -14px;
+}

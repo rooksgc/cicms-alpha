@@ -1,0 +1,10 @@
+/* Корректировки css для IE */
+
+.cud_menu {
+    display: inline;
+    zoom: 1;
+}
+
+.settings .formSubmit {
+    width: 100%;
+}
