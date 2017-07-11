@@ -1,0 +1,2 @@
+# Запрещаем выполнение кода php
+php_flag engine off
